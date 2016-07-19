@@ -25,7 +25,20 @@ body {
 .footer-color {
 	border-color: red;
 }
-
+.top-nav {
+	background-color: goldenrod;
+	height: 45px;
+}
+.top-nav li {
+	list-style: none;
+	font-family: arial;
+	display: inline-block;
+	padding: 10px;
+	cursor:pointer;
+}
+.top-nav li:hover {
+	color: green;
+}
 /*
 .new-border2 {
 	border-width: 2px;

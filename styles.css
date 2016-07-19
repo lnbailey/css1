@@ -8,14 +8,20 @@ body {
 
 .title-color {
 	border-color: blue;
+	text-align: center;
+	font-size: 3em;
 }
 
 .text1-color {
 	border-color: orange;
+	float: left;
+	width: 45%;
 }
 
 .text2-color {
 	border-color: purple;
+	float: right;
+	width: 45%: 
 }
 
 .image-color {
@@ -24,6 +30,7 @@ body {
 
 .footer-color {
 	border-color: red;
+	clear: both;
 }
 .top-nav {
 	background-color: goldenrod;
@@ -38,6 +45,13 @@ body {
 }
 .top-nav li:hover {
 	color: green;
+}
+img-box{
+	width: 30%;
+	height: 50px;
+	border: 2px dashed lime;
+	display: inline-block;
+	padding: 2%;
 }
 /*
 .new-border2 {
